@@ -12,4 +12,10 @@ public class Cliente extends UsuarioBase {
 		return false;
 	}
 
+	@Override
+	public boolean isSuperAdministrator() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
 }
