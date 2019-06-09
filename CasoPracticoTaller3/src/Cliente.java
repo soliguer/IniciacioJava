@@ -7,7 +7,7 @@ public class Cliente extends UsuarioBase {
 	}
 
 	@Override
-	public boolean isAdministrador() {
+	public boolean isAdministrator() {
 		// TODO Auto-generated method stub
 		return false;
 	}

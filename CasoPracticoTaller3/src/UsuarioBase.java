@@ -21,6 +21,6 @@ public abstract class UsuarioBase implements Usuario {
 	}
 
 	@Override
-	public abstract boolean isAdministrador();
+	public abstract boolean isAdministrator();
 
 }

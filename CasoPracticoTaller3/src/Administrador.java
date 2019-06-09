@@ -7,7 +7,7 @@ public class Administrador extends UsuarioBase {
 	}
 
 	@Override
-	public boolean isAdministrador() {
+	public boolean isAdministrator() {
 		return true;
 	}
 
