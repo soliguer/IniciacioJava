@@ -13,7 +13,12 @@ public class Fibonacci {
 		int resultat=0;
 		int prefibonacci=0;
 		int preprefibonacci=0;
+		if (index <0) {
+// ERROR A CORREGIR			throw new NotNaturalException("El número ha de ser major de zero"); 
+			
+		}
 		for (int i=0;i<=index;++i) {
+			
 			if (i==0) {resultat=0;}
 			if (i==1) {resultat=1;prefibonacci=1;}
 			else {
