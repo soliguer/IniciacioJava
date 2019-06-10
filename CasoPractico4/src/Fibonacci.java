@@ -5,7 +5,12 @@ public class Fibonacci {
 	int index;
 	public Fibonacci(int index) {
 		this.index=index;
+		try {
 		this.numero=getFibonacci(this.index);
+		}
+		catch (NotNaturalException e) {
+			
+		}
 	}
 	
 	
@@ -40,9 +45,10 @@ public class Fibonacci {
 	public static void main(String[] args) {
 	int i;
 	i=getIndex();
-	Fibonacci fibo=new Fibonacci(i);
+	for (int n=0;n<i;n++) {
+	Fibonacci fibo=new Fibonacci(n);
 	System.out.println(fibo.numero);
-	
+	}
 	}
 
 }
