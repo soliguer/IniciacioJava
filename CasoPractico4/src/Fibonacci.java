@@ -9,12 +9,12 @@ public class Fibonacci {
 	}
 	
 	
-	public static int getFibonacci(int index) {
+	public static int getFibonacci(int index) throws NotNaturalException{
 		int resultat=0;
 		int prefibonacci=0;
 		int preprefibonacci=0;
 		if (index <0) {
-// ERROR A CORREGIR			throw new NotNaturalException("El número ha de ser major de zero"); 
+			throw new NotNaturalException("El número ha de ser major de zero"); 
 			
 		}
 		for (int i=0;i<=index;++i) {
